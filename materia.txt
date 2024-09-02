@@ -1,0 +1,83 @@
+package ar.com.alumno;
+
+public class Materias {
+
+	String profesor;
+	String alumno;
+	int nota;
+
+	public Materias(String alumno, String profesor, int nota) {
+
+		this.alumno = alumno;
+		this.profesor = profesor;
+		this.nota = nota;
+	}
+
+	public String getAlumno() {
+
+		return alumno;
+
+	}
+
+	/**
+
+	 * @param alumno the alumno to set
+
+	 */
+
+	public void setAlumno(String alumno) {
+
+		this.alumno = alumno;
+
+	}
+
+	/**
+
+	 * @return the profesor
+
+	 */
+
+	public String getProfesor() {
+
+		return profesor;
+
+	}
+
+	/**
+
+	 * @param profesor the profesor to set
+
+	 */
+
+	public void setProfesor(String profesor) {
+
+		this.profesor = profesor;
+
+	}
+
+	/**
+
+	 * @return the nota
+
+	 */
+
+	public int getNota() {
+
+		return nota;
+
+	}
+
+	/**
+
+	 * @param nota the nota to set
+
+	 */
+
+	public void setNota(int nota) {
+
+		this.nota = nota;
+
+	}
+
+
+}

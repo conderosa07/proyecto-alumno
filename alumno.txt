@@ -1,0 +1,209 @@
+public class Alumno {
+	
+		String apellido;
+		String materia;
+		int nota;
+		
+		int[] arrayDeNumeros = new int[5];
+
+
+		String edad;
+
+		String direccion;
+
+		int telefono;
+
+			String alumno;
+
+			public Alumno (String apellido, String materia, int nota, String edad, String direccion, int telefono,
+
+					String alumno) {
+
+
+				this.apellido = apellido;
+
+				this.materia = materia;
+
+				this.nota = nota;
+
+				this.edad = edad;
+
+				this.direccion = direccion;
+
+				this.telefono = telefono;
+
+				this.alumno = alumno;
+
+			}
+
+			/**
+
+			 * @return the alumno
+
+			 */
+
+			public String getAlumno() {
+
+				return alumno;
+
+			}
+
+			/**
+
+			 * @param alumno the alumno to set
+
+			 */
+
+			public void setAlumno(String alumno) {
+
+				this.alumno = alumno;
+
+			}
+
+			/**
+
+			 * @return the apellido
+
+			 */
+
+			public String getApellido() {
+
+				return apellido;
+
+			}
+
+			/**
+
+			 * @param apellido the apellido to set
+
+			 */
+
+			public void setApellido(String apellido) {
+
+				this.apellido = apellido;
+
+			}
+
+			/**
+
+			 * @return the materia
+
+			 */
+
+			public String getMateria() {
+
+				return materia;
+
+			}
+
+			/**
+
+			 * @param materia the materia to set
+
+			 */
+
+			public void setMateria(String materia) {
+
+				this.materia = materia;
+
+			}
+
+			/**
+
+			 * @return the nota
+
+			 */
+
+			public int getNota() {
+
+				return nota;
+
+			}
+
+			/**
+
+			 * @param nota the nota to set
+
+			 */
+
+			public void setNota(int nota) {
+
+				this.nota = nota;
+
+			}
+
+			/**
+
+			 * @return the edad
+
+			 */
+
+			public String getEdad() {
+
+				return edad;
+
+			}
+
+			/**
+
+			 * @param edad the edad to set
+
+			 */
+
+			public void setEdad(String edad) {
+
+				this.edad = edad;
+
+			}
+
+			/**
+
+			 * @return the direccion
+
+			 */
+
+			public String getDireccion() {
+
+				return direccion;
+
+			}
+
+			/**
+
+			 * @param direccion the direccion to set
+
+			 */
+
+			public void setDireccion(String direccion) {
+
+				this.direccion = direccion;
+
+			}
+
+			/**
+
+			 * @return the telefono
+
+			 */
+
+			public int getTelefono() {
+
+				return telefono;
+
+			}
+
+			/**
+
+			 * @param telefono the telefono to set
+
+			 */
+
+			public void setTelefono(int telefono) {
+
+				this.telefono = telefono;
+
+			}
+
+			
+
+	}
